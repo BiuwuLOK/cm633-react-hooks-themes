@@ -1,3 +1,65 @@
+
+# cm633-react-hooks-themes
+
+本專案示範如何在 React 專案中運用 Hooks 來實現主題切換（如明暗模式），並結合 JavaScript、HTML、CSS 打造現代化體驗。
+
+## 功能特色
+
+- 使用 React Hooks 管理主題狀態
+- 支援多種主題（如亮色/暗色）
+- 主題切換即時生效
+- 易於擴充與整合至其他 React 專案
+- 美觀、響應式設計
+
+## 安裝步驟
+
+1. 下載或複製本專案
+2. 進入專案資料夾
+3. 安裝相依套件
+
+```bash
+npm install
+```
+
+4. 啟動本地開發伺服器
+
+```bash
+npm start
+```
+
+5. 於瀏覽器開啟 [http://localhost:3000](http://localhost:3000)
+
+## 目錄結構（範例）
+
+```
+cm633-react-hooks-themes/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   ├── hooks/
+│   ├── themes/
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+```
+
+## 使用方法
+
+1. 啟動專案後，可於介面上切換不同主題。
+2. 可參考 `src/hooks` 內的自訂 Hook 實作，將主題切換功能應用於其他專案。
+
+## 貢獻方式
+
+歡迎提出 issue 或 pull request，協助改進專案功能。
+
+## 授權
+
+本專案採用 MIT License。
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
